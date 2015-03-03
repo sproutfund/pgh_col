@@ -7,4 +7,4 @@ be able to load the sample JSON file is:
 $ python -m SimpleHTTPServer
 ```
 
-Then visit http://localhost:8000/index.html.
+Then visit [http://localhost:8000/index.html](http://localhost:8000/index.html).
