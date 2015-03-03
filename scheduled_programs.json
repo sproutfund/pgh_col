@@ -1,0 +1,1250 @@
+{
+  "errors": {},
+  "metadata": {},
+  "result": [
+    {
+      "id": 236857198,
+      "name": "a",
+      "description": "This is the p1 workshop",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "workshop",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": null,
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 819547023,
+            "name": "Science",
+            "description": "Trial and Error"
+          }
+        }
+      ],
+      "badges": [
+        {
+          "badge": {
+            "id": 516246109,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        }
+      ],
+      "schedules": []
+    },
+    {
+      "id": 387413722,
+      "name": "B",
+      "description": "This is the p1 event",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "face_to_face",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": "P1111",
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 819547023,
+            "name": "Science",
+            "description": "Trial and Error"
+          }
+        }
+      ],
+      "badges": [
+        {
+          "badge": {
+            "id": 700611278,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "skill",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        },
+        {
+          "badge": {
+            "id": 516246109,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        },
+        {
+          "badge": {
+            "id": 130816993,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        }
+      ],
+      "schedules": []
+    },
+    {
+      "id": 957945851,
+      "name": "a",
+      "description": "This is the p1 workshop",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": null,
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [],
+      "badges": [],
+      "schedules": []
+    },
+    {
+      "id": 957945853,
+      "name": "AXpChyFHnosZxCKjdiMZLChCLwKWXhDjhaFlMRiUPdveozkrLM",
+      "description": "This is the updated description",
+      "org_id": 845309360,
+      "org_name": "Org1",
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 9,
+      "city": null,
+      "contact_email": "program_admin@remixlearning.com",
+      "contact_name": "PA Barachus",
+      "contact_phone": "342332 234234 23423",
+      "end_date": "2015-03-08",
+      "end_time": "2000-01-01T22:07:43Z",
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": "public library",
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": "www.google.com",
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": "2015-02-28",
+      "registration_url": "www.registerhere.com",
+      "scheduled_fri": true,
+      "scheduled_mon": true,
+      "scheduled_sat": false,
+      "scheduled_sun": true,
+      "scheduled_thurs": false,
+      "scheduled_tues": null,
+      "scheduled_wed": true,
+      "start_date": "2015-03-01",
+      "start_time": "2000-01-01T19:07:43Z",
+      "state": null,
+      "zipcode": null,
+      "created_at": "2015-02-26T22:07:43Z",
+      "updated_at": "2015-02-26T22:07:43Z",
+      "claim_code": "PTV96",
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 132021022,
+            "name": "Arts",
+            "description": "Bring out the artist in you"
+          }
+        },
+        {
+          "category": {
+            "id": 517417634,
+            "name": "Maths",
+            "description": "A mathematical exploration"
+          }
+        }
+      ],
+      "badges": [],
+      "schedules": []
+    }
+  ],
+  "status": 200
+}
+Request
+GET /orgs/845309360/programs/1060662067/scheduled_programs.json
+Response Code
+200
+Response
+{
+  "errors": {},
+  "metadata": {},
+  "result": [
+    {
+      "id": 236857198,
+      "name": "a",
+      "description": "This is the p1 workshop",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "workshop",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": null,
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 819547023,
+            "name": "Science",
+            "description": "Trial and Error"
+          }
+        }
+      ],
+      "badges": [
+        {
+          "badge": {
+            "id": 516246109,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        }
+      ],
+      "schedules": []
+    },
+    {
+      "id": 387413722,
+      "name": "B",
+      "description": "This is the p1 event",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "face_to_face",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": "P1111",
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 819547023,
+            "name": "Science",
+            "description": "Trial and Error"
+          }
+        }
+      ],
+      "badges": [
+        {
+          "badge": {
+            "id": 700611278,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "skill",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        },
+        {
+          "badge": {
+            "id": 516246109,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        },
+        {
+          "badge": {
+            "id": 130816993,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        }
+      ],
+      "schedules": []
+    },
+    {
+      "id": 957945851,
+      "name": "a",
+      "description": "This is the p1 workshop",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": null,
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [],
+      "badges": [],
+      "schedules": []
+    },
+    {
+      "id": 957945854,
+      "name": "sLNbAxSxtwRqOPIqpqbZuPMJOqsvMRKtqqrNUXWujNMufmkBtm",
+      "description": "This is the updated description",
+      "org_id": 845309360,
+      "org_name": "Org1",
+      "program_id": 1060662067,
+      "latitude": 39.4777,
+      "longitude": -87.3376,
+      "level_id": null,
+      "address": "Wabash street",
+      "min_age": 2,
+      "max_age": 9,
+      "city": null,
+      "contact_email": "program_admin@remixlearning.com",
+      "contact_name": "PA Barachus",
+      "contact_phone": "342332 234234 23423",
+      "end_date": "2015-03-08",
+      "end_time": "2000-01-01T22:07:46Z",
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": "public library",
+      "meeting_type": "face_to_face",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "workshop",
+      "program_url": null,
+      "registration_deadline": "2015-02-28",
+      "registration_url": "www.registerhere.com",
+      "scheduled_fri": true,
+      "scheduled_mon": true,
+      "scheduled_sat": false,
+      "scheduled_sun": true,
+      "scheduled_thurs": false,
+      "scheduled_tues": null,
+      "scheduled_wed": true,
+      "start_date": "2015-03-01",
+      "start_time": "2000-01-01T19:07:46Z",
+      "state": null,
+      "zipcode": null,
+      "created_at": "2015-02-26T22:07:46Z",
+      "updated_at": "2015-02-26T22:07:46Z",
+      "claim_code": "P7AUI",
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "location": {
+        "type": "point",
+        "coordinates": [
+          -87.3376,
+          39.4777
+        ]
+      },
+      "location_point": [
+        -87.3376,
+        39.4777
+      ],
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 132021022,
+            "name": "Arts",
+            "description": "Bring out the artist in you"
+          }
+        },
+        {
+          "category": {
+            "id": 517417634,
+            "name": "Maths",
+            "description": "A mathematical exploration"
+          }
+        }
+      ],
+      "badges": [],
+      "schedules": []
+    }
+  ],
+  "status": 200
+}
+Request
+GET /orgs/845309360/programs/1060662067/scheduled_programs.json
+Response Code
+200
+Response
+{
+  "errors": {},
+  "metadata": {},
+  "result": [
+    {
+      "id": 236857198,
+      "name": "a",
+      "description": "This is the p1 workshop",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "workshop",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": null,
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 819547023,
+            "name": "Science",
+            "description": "Trial and Error"
+          }
+        }
+      ],
+      "badges": [
+        {
+          "badge": {
+            "id": 516246109,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        }
+      ],
+      "schedules": []
+    },
+    {
+      "id": 387413722,
+      "name": "B",
+      "description": "This is the p1 event",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "face_to_face",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": "P1111",
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 819547023,
+            "name": "Science",
+            "description": "Trial and Error"
+          }
+        }
+      ],
+      "badges": [
+        {
+          "badge": {
+            "id": 700611278,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "skill",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        },
+        {
+          "badge": {
+            "id": 516246109,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        },
+        {
+          "badge": {
+            "id": 130816993,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        }
+      ],
+      "schedules": []
+    },
+    {
+      "id": 957945851,
+      "name": "a",
+      "description": "This is the p1 workshop",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": null,
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [],
+      "badges": [],
+      "schedules": []
+    },
+    {
+      "id": 957945855,
+      "name": "yktdOcCTmfrkeUqwtxISzdwkHWMTyQiYwxymwKKumIHuyfuOtN",
+      "description": "This is the updated description",
+      "org_id": 845309360,
+      "org_name": "Org1",
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 9,
+      "city": null,
+      "contact_email": "program_admin@remixlearning.com",
+      "contact_name": "PA Barachus",
+      "contact_phone": "342332 234234 23423",
+      "end_date": "2015-03-08",
+      "end_time": "2000-01-01T22:07:51Z",
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": "public library",
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": "www.google.com",
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": "2015-02-28",
+      "registration_url": "www.registerhere.com",
+      "scheduled_fri": true,
+      "scheduled_mon": true,
+      "scheduled_sat": false,
+      "scheduled_sun": true,
+      "scheduled_thurs": false,
+      "scheduled_tues": null,
+      "scheduled_wed": true,
+      "start_date": "2015-03-01",
+      "start_time": "2000-01-01T19:07:51Z",
+      "state": null,
+      "zipcode": null,
+      "created_at": "2015-02-26T22:07:51Z",
+      "updated_at": "2015-02-26T22:07:51Z",
+      "claim_code": "PO8AS",
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 132021022,
+            "name": "Arts",
+            "description": "Bring out the artist in you"
+          }
+        },
+        {
+          "category": {
+            "id": 517417634,
+            "name": "Maths",
+            "description": "A mathematical exploration"
+          }
+        }
+      ],
+      "badges": [],
+      "schedules": []
+    }
+  ],
+  "status": 200
+}
+Request
+GET /orgs/845309360/programs/1060662067/scheduled_programs.json
+Response Code
+200
+Response
+{
+  "errors": {},
+  "metadata": {},
+  "result": [
+    {
+      "id": 236857198,
+      "name": "a",
+      "description": "This is the p1 workshop",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "workshop",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": null,
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 819547023,
+            "name": "Science",
+            "description": "Trial and Error"
+          }
+        }
+      ],
+      "badges": [
+        {
+          "badge": {
+            "id": 516246109,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        }
+      ],
+      "schedules": []
+    },
+    {
+      "id": 387413722,
+      "name": "B",
+      "description": "This is the p1 event",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "face_to_face",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": "P1111",
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 819547023,
+            "name": "Science",
+            "description": "Trial and Error"
+          }
+        }
+      ],
+      "badges": [
+        {
+          "badge": {
+            "id": 700611278,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "skill",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        },
+        {
+          "badge": {
+            "id": 516246109,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        },
+        {
+          "badge": {
+            "id": 130816993,
+            "name": "MyString",
+            "description": "MyText",
+            "informal_description": "MyText",
+            "blurb": "MyText",
+            "badge_type": "community",
+            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+            "issue_count": 0
+          }
+        }
+      ],
+      "schedules": []
+    },
+    {
+      "id": 957945851,
+      "name": "a",
+      "description": "This is the p1 workshop",
+      "org_id": 845309360,
+      "org_name": null,
+      "program_id": 1060662067,
+      "latitude": null,
+      "longitude": null,
+      "level_id": null,
+      "address": null,
+      "min_age": 2,
+      "max_age": 4,
+      "city": null,
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "end_date": null,
+      "end_time": null,
+      "extra_data": {},
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": null,
+      "meeting_type": "online",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": null,
+      "registration_url": null,
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-03",
+      "start_time": null,
+      "state": null,
+      "zipcode": "MyString",
+      "created_at": "2015-02-26T22:03:45Z",
+      "updated_at": "2015-02-26T22:03:45Z",
+      "claim_code": null,
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "hidden": false,
+      "categories": [],
+      "badges": [],
+      "schedules": []
+    },
+    {
+      "id": 957945857,
+      "name": "CPL",
+      "description": "Albany Park Library",
+      "org_id": 845309360,
+      "org_name": "Org1",
+      "program_id": 1060662067,
+      "latitude": 41.9751,
+      "longitude": -87.7135,
+      "level_id": null,
+      "address": "5151 N. Kimball Avenue",
+      "min_age": 2,
+      "max_age": 9,
+      "city": "Chicago",
+      "contact_email": "program_admin@remixlearning.com",
+      "contact_name": "PA Barachus",
+      "contact_phone": "342332 234234 23423",
+      "end_date": "2015-03-08",
+      "end_time": "2000-01-01T22:07:54Z",
+      "extra_data": {
+        "multilingual": true,
+        "languages": [
+          "EN",
+          "ES",
+          "IT"
+        ]
+      },
+      "hidden_by": null,
+      "hide": false,
+      "hide_reason": null,
+      "location_name": "North Park University Parking Lot",
+      "meeting_type": "face_to_face",
+      "neighborhood": null,
+      "online_address": null,
+      "price": 0,
+      "program_type": "event",
+      "program_url": null,
+      "registration_deadline": "2015-02-28",
+      "registration_url": "www.registerhere.com",
+      "scheduled_fri": null,
+      "scheduled_mon": null,
+      "scheduled_sat": null,
+      "scheduled_sun": null,
+      "scheduled_thurs": null,
+      "scheduled_tues": null,
+      "scheduled_wed": null,
+      "start_date": "2015-03-01",
+      "start_time": "2000-01-01T19:07:54Z",
+      "state": "IL",
+      "zipcode": null,
+      "created_at": "2015-02-26T22:07:54Z",
+      "updated_at": "2015-02-26T22:07:54Z",
+      "claim_code": "PNMH8",
+      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
+      "location": {
+        "type": "point",
+        "coordinates": [
+          -87.7135,
+          41.9751
+        ]
+      },
+      "location_point": [
+        -87.7135,
+        41.9751
+      ],
+      "hidden": false,
+      "categories": [
+        {
+          "category": {
+            "id": 132021022,
+            "name": "Arts",
+            "description": "Bring out the artist in you"
+          }
+        },
+        {
+          "category": {
+            "id": 517417634,
+            "name": "Maths",
+            "description": "A mathematical exploration"
+          }
+        }
+      ],
+      "badges": [],
+      "schedules": [
+        {
+          "schedule": {
+            "start_date": "02/23/2015",
+            "start_time": "09:00",
+            "end_time": "12:00"
+          }
+        },
+        {
+          "schedule": {
+            "start_date": "02/24/2015",
+            "start_time": "09:00",
+            "end_time": "12:00"
+          }
+        },
+        {
+          "schedule": {
+            "start_date": "02/25/2015",
+            "start_time": "09:00",
+            "end_time": "12:00"
+          }
+        }
+      ]
+    }
+  ],
+  "status": 200
+}
