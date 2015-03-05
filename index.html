@@ -31,10 +31,16 @@
                     var p = $('<p>').text(program.description);
                     description.append(p);
 
+                    // extra
+                    var extra = $('<div class="extra">');
+                    var type = $('<div class="ui label">').text(program.program_type);
+                    extra.append(type);
+
                     // tie it together
                     content.append(header);
                     content.append(meta);
                     content.append(description);
+                    content.append(extra);
 
                     item.append(image, content);
                     items.append(item);
