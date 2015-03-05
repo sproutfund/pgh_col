@@ -1,21 +1,56 @@
 <!doctype html>
 <html>
     <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="semantic-ui/dist/semantic.css" />
+        <link rel="stylesheet" href="semantic-ui/examples/feed.css" />
         <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
         <script>
+            var badgeUrl = 'https://chicagocityoflearning.org/badge-details?id=';
+
             function display(programs)
             {
-                var table = $('table');
+                var items = $('.ui.divided.items');
+
                 jQuery.each(programs.result, function(i, program)
                 {
-                    console.log(program);
-                    var row = $('<tr>');
-                    row.append($('<td>').text(program.name))
-                    row.append($('<td>').text(program.description))
-                    row.append($('<td>').text(program.program_type))
-                    row.append($('<td>').text(program.start_date))
-                    row.append($('<td>').text(program.end_date))
-                    table.append(row);
+                    var item = $('<div class="item">');
+
+                    // image
+                    var image = $('<div class="image">');
+                    var logo = $('<img>').attr('src', program.logo_url);
+                    image.append(logo)
+
+                    // content
+                    var content = $('<div class="content">');
+                    var header = $('<a class="header">')
+                        .text(program.name)
+                        .attr('href', program.registration_url);
+                    var meta = $('<div class="meta">');
+                    var subtitle = $('<span class="sub-title">').text(program.start_date);
+                    meta.append(subtitle);
+                    var description = $('<div class="content">');
+                    var p = $('<p>').text(program.description);
+                    description.append(p);
+
+                    // extra
+                    var extra = $('<div class="extra">').text('Badges: ');
+                    jQuery.each(program.badges, function(i, badge)
+                    {
+                        var badge = $('<a class="ui label">')
+                            .attr('href', badgeUrl + badge.badge.id)
+                            .text(badge.badge.name);
+                        extra.append(badge);
+                    });
+
+                    // tie it together
+                    content.append(header);
+                    content.append(meta);
+                    content.append(description);
+                    content.append(extra);
+
+                    item.append(image, content);
+                    items.append(item);
                 });
             }
 
@@ -36,15 +71,5 @@
             });
         </script>
     </head>
-    <body>
-        <table>
-            <tr>
-                <th>Program</th>
-                <th>Description</th>
-                <th>Type</th>
-                <th>Start</th>
-                <th>End</th>
-            </tr>
-        </table>
-    </body>
+    <body><div class="ui divided items"></div></body>
 </html>
