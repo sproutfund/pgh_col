@@ -1,320 +1,106 @@
 {
-  "errors": {},
-  "metadata": {},
-  "result": [
-    {
-      "id": 236857198,
-      "name": "LED Embedded Clothing Workshop",
-      "description": "This is a great workshop at Assemble. Come learn how to embed LED lights into your clothing and make yourself fly!",
-      "org_id": 845309360,
-      "org_name": "Assemble",
-      "program_id": 1060662067,
-      "latitude": null,
-      "longitude": null,
-      "level_id": null,
-      "address": null,
-      "min_age": 13,
-      "max_age": 18,
-      "city": "Pittsburgh",
-      "contact_email": "nina@assemble.org",
-      "contact_name": "Nina Barbuto",
-      "contact_phone": "412-999-9999",
-      "end_date": "2015-03-03",
-      "end_time": "2015-02-26T22:03:45Z",
-      "extra_data": {},
-      "hidden_by": null,
-      "hide": false,
-      "hide_reason": null,
-      "location_name": "Assemble",
-      "meeting_type": "local",
-      "neighborhood": "Garfield",
-      "online_address": "http://assemblepgh.org/programs/girls-maker-night/",
-      "price": 0,
-      "program_type": "workshop",
-      "program_url": null,
-      "registration_deadline": null,
-      "registration_url": null,
-      "scheduled_fri": null,
-      "scheduled_mon": null,
-      "scheduled_sat": null,
-      "scheduled_sun": null,
-      "scheduled_thurs": null,
-      "scheduled_tues": null,
-      "scheduled_wed": null,
-      "start_date": "2015-03-03",
-      "start_time": "2015-02-26T22:03:45Z",
-      "state": null,
-      "zipcode": "MyString",
-      "created_at": "2015-02-26T22:03:45Z",
-      "updated_at": "2015-02-26T22:03:45Z",
-      "claim_code": null,
-      "logo_url": "http://assemblepgh.org/wp-content/uploads/assemble2.png",
-      "hidden": false,
-      "categories": [
-        {
-          "category": {
-            "id": 819547023,
-            "name": "Science",
-            "description": "Trial and Error"
-          }
-        }
-      ],
-      "badges": [
-        {
-          "badge": {
-            "id": 5162461091,
-            "name": "High-Tech Fashion Designer",
-            "description": "Proven skills in designing and creating high-tech clothing that is embedded with electronics. This badge data will be pulled from real badges within CoL.",
-            "informal_description": "informal description goes here. How is this different than description?",
-            "blurb": "little short blurb here. maybe even shorter than desc or informa_desc ?",
-            "badge_type": "skill",
-            "image_url": "http://cloudfront.sproutfund.org/files/2014/10/goodwill-of-southwestern-pennsylvania-dress-to-impress-badge-360x360.png",
-            "issue_count": 0
-          }
-        {
-          "badge": {
-            "id": 5162461092,
-            "name": "High-Tech Fashion Designer",
-            "description": "Proven skills in designing and creating high-tech clothing that is embedded with electronics. This badge data will be pulled from real badges within CoL.",
-            "informal_description": "informal description goes here. How is this different than description?",
-            "blurb": "little short blurb here. maybe even shorter than desc or informa_desc ?",
-            "badge_type": "skill",
-            "image_url": "http://cloudfront.sproutfund.org/files/2014/10/goodwill-of-southwestern-pennsylvania-dress-to-impress-badge-360x360.png",
-            "issue_count": 0
-          }
-        }
-        {
-          "badge": {
-            "id": 5162461093,
-            "name": "High-Tech Fashion Designer",
-            "description": "Proven skills in designing and creating high-tech clothing that is embedded with electronics. This badge data will be pulled from real badges within CoL.",
-            "informal_description": "informal description goes here. How is this different than description?",
-            "blurb": "little short blurb here. maybe even shorter than desc or informa_desc ?",
-            "badge_type": "skill",
-            "image_url": "http://cloudfront.sproutfund.org/files/2014/10/goodwill-of-southwestern-pennsylvania-dress-to-impress-badge-360x360.png",
-            "issue_count": 0
-          }
-        }
-        }
-      ],
-      "schedules": []
-    },
-    {
-      "id": 387413722,
-      "name": "B",
-      "description": "This is the p1 event",
-      "org_id": 845309360,
-      "org_name": null,
-      "program_id": 1060662067,
-      "latitude": null,
-      "longitude": null,
-      "level_id": null,
-      "address": null,
-      "min_age": 2,
-      "max_age": 4,
-      "city": null,
-      "contact_email": null,
-      "contact_name": null,
-      "contact_phone": null,
-      "end_date": null,
-      "end_time": null,
-      "extra_data": {},
-      "hidden_by": null,
-      "hide": false,
-      "hide_reason": null,
-      "location_name": null,
-      "meeting_type": "face_to_face",
-      "neighborhood": null,
-      "online_address": null,
-      "price": 0,
-      "program_type": "event",
-      "program_url": null,
-      "registration_deadline": null,
-      "registration_url": null,
-      "scheduled_fri": null,
-      "scheduled_mon": null,
-      "scheduled_sat": null,
-      "scheduled_sun": null,
-      "scheduled_thurs": null,
-      "scheduled_tues": null,
-      "scheduled_wed": null,
-      "start_date": "2015-03-03",
-      "start_time": null,
-      "state": null,
-      "zipcode": "MyString",
-      "created_at": "2015-02-26T22:03:45Z",
-      "updated_at": "2015-02-26T22:03:45Z",
-      "claim_code": "P1111",
-      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
-      "hidden": false,
-      "categories": [
-        {
-          "category": {
-            "id": 819547023,
-            "name": "Science",
-            "description": "Trial and Error"
-          }
-        }
-      ],
-      "badges": [
-        {
-          "badge": {
-            "id": 700611278,
-            "name": "MyString",
-            "description": "MyText",
-            "informal_description": "MyText",
-            "blurb": "MyText",
-            "badge_type": "skill",
-            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
-            "issue_count": 0
-          }
-        },
-        {
-          "badge": {
-            "id": 516246109,
-            "name": "MyString",
-            "description": "MyText",
-            "informal_description": "MyText",
-            "blurb": "MyText",
-            "badge_type": "community",
-            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
-            "issue_count": 0
-          }
-        },
-        {
-          "badge": {
-            "id": 130816993,
-            "name": "MyString",
-            "description": "MyText",
-            "informal_description": "MyText",
-            "blurb": "MyText",
-            "badge_type": "community",
-            "image_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
-            "issue_count": 0
-          }
-        }
-      ],
-      "schedules": []
-    },
-    {
-      "id": 957945851,
-      "name": "a",
-      "description": "This is the p1 workshop",
-      "org_id": 845309360,
-      "org_name": null,
-      "program_id": 1060662067,
-      "latitude": null,
-      "longitude": null,
-      "level_id": null,
-      "address": null,
-      "min_age": 2,
-      "max_age": 4,
-      "city": null,
-      "contact_email": null,
-      "contact_name": null,
-      "contact_phone": null,
-      "end_date": null,
-      "end_time": null,
-      "extra_data": {},
-      "hidden_by": null,
-      "hide": false,
-      "hide_reason": null,
-      "location_name": null,
-      "meeting_type": "online",
-      "neighborhood": null,
-      "online_address": null,
-      "price": 0,
-      "program_type": "event",
-      "program_url": null,
-      "registration_deadline": null,
-      "registration_url": null,
-      "scheduled_fri": null,
-      "scheduled_mon": null,
-      "scheduled_sat": null,
-      "scheduled_sun": null,
-      "scheduled_thurs": null,
-      "scheduled_tues": null,
-      "scheduled_wed": null,
-      "start_date": "2015-03-03",
-      "start_time": null,
-      "state": null,
-      "zipcode": "MyString",
-      "created_at": "2015-02-26T22:03:45Z",
-      "updated_at": "2015-02-26T22:03:45Z",
-      "claim_code": null,
-      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
-      "hidden": false,
-      "categories": [],
-      "badges": [],
-      "schedules": []
-    },
-    {
-      "id": 957945853,
-      "name": "AXpChyFHnosZxCKjdiMZLChCLwKWXhDjhaFlMRiUPdveozkrLM",
-      "description": "This is the updated description",
-      "org_id": 845309360,
-      "org_name": "Org1",
-      "program_id": 1060662067,
-      "latitude": null,
-      "longitude": null,
-      "level_id": null,
-      "address": null,
-      "min_age": 2,
-      "max_age": 9,
-      "city": null,
-      "contact_email": "program_admin@remixlearning.com",
-      "contact_name": "PA Barachus",
-      "contact_phone": "342332 234234 23423",
-      "end_date": "2015-03-08",
-      "end_time": "2000-01-01T22:07:43Z",
-      "extra_data": {},
-      "hidden_by": null,
-      "hide": false,
-      "hide_reason": null,
-      "location_name": "public library",
-      "meeting_type": "online",
-      "neighborhood": null,
-      "online_address": "www.google.com",
-      "price": 0,
-      "program_type": "event",
-      "program_url": null,
-      "registration_deadline": "2015-02-28",
-      "registration_url": "www.registerhere.com",
-      "scheduled_fri": true,
-      "scheduled_mon": true,
-      "scheduled_sat": false,
-      "scheduled_sun": true,
-      "scheduled_thurs": false,
-      "scheduled_tues": null,
-      "scheduled_wed": true,
-      "start_date": "2015-03-01",
-      "start_time": "2000-01-01T19:07:43Z",
-      "state": null,
-      "zipcode": null,
-      "created_at": "2015-02-26T22:07:43Z",
-      "updated_at": "2015-02-26T22:07:43Z",
-      "claim_code": "PTV96",
-      "logo_url": "http://remixlearning.com/wp-content/themes/warm/img/logo_chicago.jpg",
-      "hidden": false,
-      "categories": [
-        {
-          "category": {
-            "id": 132021022,
-            "name": "Arts",
-            "description": "Bring out the artist in you"
-          }
-        },
-        {
-          "category": {
-            "id": 517417634,
-            "name": "Maths",
-            "description": "A mathematical exploration"
-          }
-        }
-      ],
-      "badges": [],
-      "schedules": []
-    }
-  ],
-  "status": 200
+   "errors":{
+
+   },
+   "metadata":{
+
+   },
+   "result":[
+      {
+         "address":"1060 East 47th Street",
+         "badges":[
+            {
+               "badge":{
+                  "badge_type":"community",
+                  "blurb":"Design robots and homes.  Produce music and film.  Start a digital campaign.  Get your Geek on at Geek Squad Academy!",
+                  "description":"Geek Squad Academy, a program of Best Buy, is designed to expose young people to technology tools and careers by engaging them in a variety of interest-driven, hands-on workshops that result in tangible products. Over the course of the 2-day camp, youth are engaged in workshops organized around 3-D design and printing, robotics, film-making, music production, and digital citizenship. In each workshop, youth have the opportunity to apply technical skills to a tangible project that involves design and collaboration.  The tools that youth use at camp include SketchUp, Garage Band, iMovie, and Lego Mindstorm EV3.",
+                  "id":784,
+                  "image_url":"https://badgekit.org/images/badge/1831",
+                  "informal_description":"At Geek Squad Academy, Junior Agents learn how to design buildings, make movies, produce music, build robots, and be good digital citizens.  In 2 days, you'll be a pro at new tools and have real products to show for it.",
+                  "issue_count":2,
+                  "name":"New Badge"
+               }
+            }
+         ],
+         "categories":[
+            {
+               "category":{
+                  "description":"Creating visual graphics and physical structures; Building things with electronics, craft materials; Creating fashion",
+                  "id":2,
+                  "name":"Designing + Making"
+               }
+            },
+            {
+               "category":{
+                  "description":"Crafting and understanding fictional + historical stories",
+                  "id":9,
+                  "name":"Storytelling"
+               }
+            }
+         ],
+         "city":"Chicago",
+         "claim_code":"P01YU",
+         "contact_email":"patricia.harris@geeksquad.com",
+         "contact_name":"Patricia Harris",
+         "contact_phone":"",
+         "created_at":"2014-07-29T20:48:51Z",
+         "description":"Geek Squad Summer Academy, a program of Best Buy, is designed to expose young people to technology uses and careers by engaging them in a variety of interest-driven workshops that result in tangible products.  Over the course of the 2-day camp, youth are engaged in workshops organized around 3-D design and printing, robotics, film-making, music production, and digital citizenship.  In each workshop, youth have the opportunity to apply technical skills to a tangible project that involves design and collaboration.",
+         "end_date":"2014-07-30",
+         "end_time":"2000-01-01T15:00:00Z",
+         "extra_data":{
+
+         },
+         "hidden":false,
+         "hidden_by":null,
+         "hide":false,
+         "hide_reason":"0",
+         "id":5897,
+         "latitude":41.809600000000003,
+         "level_id":null,
+         "location":{
+            "coordinates":[
+               -87.599500000000006,
+               41.809600000000003
+            ],
+            "type":"point"
+         },
+         "location_name":"Little Black Pearl Art & Design Center",
+         "location_point":[
+            -87.599500000000006,
+            41.809600000000003
+         ],
+         "logo_url":"https://www.filepicker.io/api/file/OR5Se9CLTcGzGG8GMhfl",
+         "longitude":-87.599500000000006,
+         "max_age":18,
+         "meeting_type":"face_to_face",
+         "min_age":10,
+         "name":"Geek Squad Summer Academy - Little Black Pearl ",
+         "neighborhood":null,
+         "online_address":"",
+         "org_id":300,
+         "org_name":"Best Buy",
+         "price":0,
+         "program_id":2867,
+         "program_type":"workshop",
+         "program_url":null,
+         "registration_deadline":"2014-07-29",
+         "registration_url":"https://academy.geeksquad.com/register/chicago/IL",
+         "scheduled_fri":null,
+         "scheduled_mon":null,
+         "scheduled_sat":null,
+         "scheduled_sun":null,
+         "scheduled_thurs":null,
+         "scheduled_tues":true,
+         "scheduled_wed":true,
+         "schedules":[
+
+         ],
+         "start_date":"2014-07-29",
+         "start_time":"2000-01-01T09:00:00Z",
+         "state":"IL",
+         "updated_at":"2014-07-29T20:49:32Z",
+         "zipcode":"60653"
+      }
+   ],
+   "status":200
 }
