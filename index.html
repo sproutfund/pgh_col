@@ -1,4 +1,69 @@
-<h1>Event Widget</h1>
-<h2>City of Learning</h2>
+<!doctype html>
+<html>
+    <head>
+        <title>City of Learning Events Widget</title>
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script>
+            function renderOrgs(orgs)
+            {
+                jQuery.each(orgs.result, function(i, org)
+                {
+                    var option = $('<option>');
+                    option.attr('value', org.id).text(org.name);
+                    $('select.orgs').append(option)
+                });
+            }
 
-<p>Greetings, program!</p>
+            function pickOrg()
+            {
+                var id = $('.orgs').val();
+                var snippet = '&lt;script src="//sproutfund.github.io/pgh_col/events.js" async data-org-id="' + id + '"&gt;&lt;/script&gt;'
+                $('pre').html(snippet);
+            }
+
+            function logError(a,b,c,d) {
+                console.log(a);
+                console.log(b);
+                console.log(c);
+                console.log(d);
+            }
+
+            $(document).ready(function()
+            {
+                jQuery.ajax(
+                    { url: './orgs.json'
+                    , dataType: 'json'
+                    , error: logError
+                    , success: renderOrgs
+                     }
+                );
+                $('.orgs').change(pickOrg);
+            });
+        </script>
+        <style>
+            pre {
+                border: 3px double #CCCCCC;
+                padding: 5px;
+                background: #EEE;
+            }
+        </style>
+    </head>
+
+    <body>
+        <img src="http://citiesoflearning.org/wp-content/uploads/2014/05/pittsburghlogo.png">
+
+        <h1>City of Learning</h1>
+        <h2>Events Widget</h2>
+
+        <p>Do you use City of Learning to manage events? Use this tool to embed an events
+        listing into your own website.</p>
+
+        <h3>Step 1: Pick Your Organization</h3>
+
+        <select class="orgs"></select>
+
+        <h3>Step 2: Copy and Paste this Code</h3>
+        <pre></pre>
+
+    </body>
+</html>
