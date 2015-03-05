@@ -62,7 +62,7 @@
       "badges": [
         {
           "badge": {
-            "id": 516246109,
+            "id": 5162461091,
             "name": "High-Tech Fashion Designer",
             "description": "Proven skills in designing and creating high-tech clothing that is embedded with electronics. This badge data will be pulled from real badges within CoL.",
             "informal_description": "informal description goes here. How is this different than description?",
@@ -71,6 +71,30 @@
             "image_url": "http://cloudfront.sproutfund.org/files/2014/10/goodwill-of-southwestern-pennsylvania-dress-to-impress-badge-360x360.png",
             "issue_count": 0
           }
+        {
+          "badge": {
+            "id": 5162461092,
+            "name": "High-Tech Fashion Designer",
+            "description": "Proven skills in designing and creating high-tech clothing that is embedded with electronics. This badge data will be pulled from real badges within CoL.",
+            "informal_description": "informal description goes here. How is this different than description?",
+            "blurb": "little short blurb here. maybe even shorter than desc or informa_desc ?",
+            "badge_type": "skill",
+            "image_url": "http://cloudfront.sproutfund.org/files/2014/10/goodwill-of-southwestern-pennsylvania-dress-to-impress-badge-360x360.png",
+            "issue_count": 0
+          }
+        }
+        {
+          "badge": {
+            "id": 5162461093,
+            "name": "High-Tech Fashion Designer",
+            "description": "Proven skills in designing and creating high-tech clothing that is embedded with electronics. This badge data will be pulled from real badges within CoL.",
+            "informal_description": "informal description goes here. How is this different than description?",
+            "blurb": "little short blurb here. maybe even shorter than desc or informa_desc ?",
+            "badge_type": "skill",
+            "image_url": "http://cloudfront.sproutfund.org/files/2014/10/goodwill-of-southwestern-pennsylvania-dress-to-impress-badge-360x360.png",
+            "issue_count": 0
+          }
+        }
         }
       ],
       "schedules": []
