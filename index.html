@@ -1,36 +1,43 @@
 <!doctype html>
 <html>
     <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="semantic-ui/dist/semantic.css" />
-    <link rel="stylesheet" href="semantic-ui/examples/feed.css" />
-
-
-
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="semantic-ui/dist/semantic.css" />
+        <link rel="stylesheet" href="semantic-ui/examples/feed.css" />
         <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
         <script>
             function display(programs)
             {
-                var event_feed = $('event_feed');
+                var items = $('.ui.divided.items');
 
                 jQuery.each(programs.result, function(i, program)
                 {
-                    console.log(program);
-                    var event = $('<div class="ui divided items">');
-                    var program_name = ($('<div class="header">').text(program.name);
-                    var program_type = ($('<span class="sub-title">').text(program.program_type);
-                    var logo = ($('<img src=program.logo_url>');
-                    event.append($('<div class="item">')
-                    event.append($('<div class="item">')
-                    event.append($('<div class="image">')
-                    event.append($('<img src=program.logo_url>')
-                    event.append($('<div class="content">')
-                    event.append($('<div class="header">').text(program.name)
-                    event.append($('<div class="meta">')
-                    event.append($('<span class="sub-title">').text(program.program_type)
-                    event.append($('<div class="description">').text(program.program_type)
-                                          .text(program.name))
-                    event_feed.append(event);
+                    var item = $('<div class="item">');
+
+                    // image
+                    var image = $('<div class="image">');
+                    var logo = $('<img>').attr('src', program.logo_url);
+                    image.append(logo)
+
+                    // content
+                    var content = $('<div class="content">');
+                    var header = $('<a class="header">')
+                        .text(program.name)
+                        .attr('href', program.registration_url);
+                    var meta = $('<div class="meta">');
+                    var subtitle = $('<span class="sub-title">').text(program.start_date);
+                    meta.append(subtitle);
+                    var description = $('<div class="content">');
+                    var p = $('<p>').text(program.description);
+                    description.append(p);
+
+                    // tie it together
+                    content.append(header);
+                    content.append(meta);
+                    content.append(description);
+
+                    item.append(image, content);
+                    items.append(item);
                 });
             }
 
@@ -42,7 +49,7 @@
             $(document).ready(function()
             {
                 jQuery.ajax(
-                    { url: './scheduled_programs.json'
+                    { url: './get_scheduled_program_response.json'
                     , dataType: 'json'
                     , success: display
                     , error: log_error
@@ -51,69 +58,5 @@
             });
         </script>
     </head>
-    <body>
-        <div class="ui divided items">
-          <div class="item">
-            <div class="image">
-              <img src="/images/wireframe/image.png">
-            </div>
-            <div class="content">
-              <a class="header">12 Years a Slave</a>
-              <div class="meta">
-                <span class="sub-title">Union Square 14</span>
-              </div>
-              <div class="description">
-                <p></p>
-              </div>
-              <div class="extra">
-                <div class="ui label">IMAX</div>
-                <div class="ui label"><i class="globe icon"></i> Additional Languages</div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="item">
-            <div class="image">
-              <img src="/images/wireframe/image.png">
-            </div>
-            <div class="content">
-              <a class="header">My Neighbor Totoro</a>
-              <div class="meta">
-                <span class="cinema">IFC Cinema</span>
-              </div>
-              <div class="description">
-                <p></p>
-              </div>
-              <div class="extra">
-                <div class="ui right floated primary button">
-                  Buy tickets
-                  <i class="right chevron icon"></i>
-                </div>
-                <div class="ui label">Limited</div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="image">
-              <img src="/images/wireframe/image.png">
-            </div>
-            <div class="content">
-              <a class="header">Watchmen</a>
-              <div class="meta">
-                <span class="cinema">IFC</span>
-              </div>
-              <div class="description">
-                <p></p>
-              </div>
-              <div class="extra">
-                <div class="ui right floated primary button">
-                  Buy tickets
-                  <i class="right chevron icon"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </body>
+    <body><div class="ui divided items"></div></body>
 </html>
