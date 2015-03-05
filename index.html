@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="semantic-ui/examples/feed.css" />
         <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
         <script>
+            var badgeUrl = 'https://chicagocityoflearning.org/badge-details?id=';
+
             function display(programs)
             {
                 var items = $('.ui.divided.items');
@@ -35,7 +37,10 @@
                     var extra = $('<div class="extra">').text('Badges: ');
                     jQuery.each(program.badges, function(i, badge)
                     {
-                        extra.append($('<div class="ui label">').text(badge.badge.name));
+                        var badge = $('<a class="ui label">')
+                            .attr('href', badgeUrl + badge.badge.id)
+                            .text(badge.badge.name);
+                        extra.append(badge);
                     });
 
                     // tie it together
