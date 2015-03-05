@@ -32,9 +32,11 @@
                     description.append(p);
 
                     // extra
-                    var extra = $('<div class="extra">');
-                    var type = $('<div class="ui label">').text(program.program_type);
-                    extra.append(type);
+                    var extra = $('<div class="extra">').text('Badges: ');
+                    jQuery.each(program.badges, function(i, badge)
+                    {
+                        extra.append($('<div class="ui label">').text(badge.badge.name));
+                    });
 
                     // tie it together
                     content.append(header);
@@ -55,7 +57,7 @@
             $(document).ready(function()
             {
                 jQuery.ajax(
-                    { url: './get_scheduled_program_response.json'
+                    { url: './scheduled_programs.json'
                     , dataType: 'json'
                     , success: display
                     , error: log_error

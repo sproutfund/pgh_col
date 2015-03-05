@@ -1,10 +1,6 @@
 {
-   "errors":{
-
-   },
-   "metadata":{
-
-   },
+   "errors":{},
+   "metadata":{},
    "result":[
       {
          "address":"1060 East 47th Street",
@@ -20,7 +16,7 @@
                   "issue_count":2,
                   "name":"New Badge"
                }
-            }
+            },
             {
                "badge":{
                   "badge_type":"community",
@@ -32,7 +28,7 @@
                   "issue_count":2,
                   "name":"New Badge"
                }
-            }
+            },
             {
                "badge":{
                   "badge_type":"community",
